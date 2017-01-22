@@ -1,0 +1,109 @@
+
+/**{ border:1px solid red; } */
+ *{ box-sizing:border-box; } 
+
+
+.nav ul li a {
+   display: inline-block;
+   position: fixed;  
+   width: 100%;
+   top: 0;
+   padding: 10px;  
+   float: right; 
+
+   background-color: black;
+   color :white;
+   text-transform: uppercase;
+   letter-spacing: 0.05em;
+
+}
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+	font-family: Calibri, Book Antiqua, Tahoma, Verdana;
+	font-size: 18px;
+   padding: 50px;  
+
+}
+
+.header h1, h2{
+	text-align: center;
+}
+
+.image {
+	display:inline-block; 
+	float: left; 
+  /*overflow: hidden; */
+}
+
+.frame {
+   width: 500px;
+   height: 450px;
+}
+
+/* resize image */
+.frame img {
+	 width: 70%;
+	 height: auto;
+}
+
+.column {
+	width: 30%;
+	height: auto; 
+	display:inline-block; 
+	/*padding: 0 20px;  */
+	float: left;
+
+}
+
+.intro {
+	  padding: 0 50px; 
+		/*background-color:	 #feffd1 ; */
+	  font-family: Calibri;
+  font-size: 20px; 
+	 /*	 font-weight: 100;  */
+	  Color: #994F22;
+} 
+
+.intro p {
+	  font-family: Times, Helvetica, Arial, Sans-serif;
+	  font-size: 3em; 
+	  font-weight: 800;
+   -webkit-margin-before: 0;	  
+} 
+.skills {
+	/*	padding: 0 50px;  */
+	/*	background-color: #f9c5bc  ;   */
+		font-size: 20px;
+		color:brown;
+}
+.main-text{
+	clear:both;
+	/*padding-top:10px;  */
+}
+
+#skill-list {
+	padding: 10px 20px 10px 30px;
+	margin-left: -10px;
+	background-color: #5AD4C2; 
+	color: #FFF;
+}
+
+body {
+	background-color: #fffeea; 
+	color #34495e;
+}
+
+/* Typography */
+h1,h2,h3 {
+	text-align: center;
+	font-family: Futura, Helvetica, Arial,Sans-serif;
+
+}
+
+.main-text h3 {
+   text-align: left; 
+   text-transform: uppercase;
+}
+

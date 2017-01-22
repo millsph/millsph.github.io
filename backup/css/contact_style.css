@@ -1,0 +1,113 @@
+/**{ border:1px solid red; } */
+ *{ box-sizing:border-box; } 
+
+.nav {
+   /*  display: inline-block;  */
+   position: fixed;  
+   width: 100%;
+   top: 0;  
+  /* padding: 20px; */
+
+}
+
+ul {
+    list-style-type: none; 
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    color :white;
+    text-transform: uppercase;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: inline-block;  
+    color: white;
+    text-align: centre;  
+    padding: 20px 20px; 
+    text-decoration: none;
+    transition: color 1000ms;
+   -webkit-transition: color 1000ms;      
+}
+
+
+.nav a:hover {
+	  color: #f50;
+	  text-decoration: none;
+}
+
+
+.mycontainer {
+	width: 80%;
+	margin: 0 auto;
+	font-family: Calibri, Book Antiqua, Tahoma, Verdana;
+	font-size: 18px;
+  text-align: left; 
+
+
+}
+
+.column {
+	width:  70%;
+	height:  auto; 
+	display: inline-block; 
+
+	float: bottom;
+	padding: 10px 20px 10px 30px; 
+
+}
+
+.email {
+	 /* padding: 0 50px; */
+	font-family: Calibri;
+  font-size:  18px; 
+	font-weight: 400;  
+
+	/*padding: 10px 20px 10px 30px; */
+	margin-left: -10px;
+	background-color: #f9c5bc  ;   
+	color:#654321;
+} 
+
+.mobile {
+
+	font-family: Calibri;
+  font-size:  18px; 
+	font-weight: 400;  
+
+	margin-left: -10px;
+	background-color: #f9c5bc  ;   
+	color: #654321;
+} 
+
+.thanks {
+
+	font-family: Calibri;
+  font-size:  18px; 
+	font-weight: 400;  
+
+} 
+
+.header h1, h2{
+	text-align: left;
+	font-family: Tahoma, Verdana;
+}
+
+
+body {
+	background-image: url("../img/little-2.jpg");
+	color: black ; 
+}
+
+
+
+/* Typography */
+h1,h2,h3 {
+	text-align: left;
+	font-family: Futura, Helvetica, Arial,Sans-serif;
+}
+

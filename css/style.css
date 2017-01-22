@@ -1,0 +1,167 @@
+.jumbotron {
+	background-image: url('../img/landscape.jpg');
+	/*	background-size: 50%;
+	//background-size: contain;	*/
+	background-size: cover;
+
+}
+
+
+.jumbotron p {
+	color:white;
+}
+
+/*/////////////////////////////////////
+///// Contact_page  ///*/
+
+/**{ border:1px solid red; } */
+ *{ box-sizing:border-box; } 
+
+
+.container-fluid{
+  padding: 0px ;
+  position: relative;  
+}
+
+
+.carousel-caption{
+  top: 40% ;
+  transform: translate(-50%, -50%);
+  display: block ; 
+  left: 50% ;
+  width: 80%;
+}
+
+.nav {
+
+   /*  display: inline-block;  */
+   position: fixed;  
+   width: 100%;
+   top: 0;  
+  /* padding: 20px; */
+	  z-index: 1;  
+}
+
+ .nav ul {
+    list-style-type: none; 
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    color :white;
+    text-transform: uppercase;
+}
+
+.nav li{
+    float: right;
+}
+
+.nav li a {
+    display: inline-block;  
+    color: white;
+    text-align: centre;  
+    padding: 20px 20px; 
+    text-decoration: none;
+    transition: color 1000ms;
+   -webkit-transition: color 1000ms;      
+}
+
+
+.nav a:hover {
+	  color: #f50;
+	  text-decoration: none;
+  
+}
+
+
+.mycontainer {
+	width: 80%;
+	margin: 0 auto;
+	font-family: Calibri, Book Antiqua, Tahoma, Verdana;
+	font-size: 18px;
+  text-align: left; 
+}
+
+.mycontainer .column{
+	width:  70%;
+	height:  auto; 
+	display: inline-block; 
+
+	float: bottom;
+	padding: 10px 20px 10px 30px; 
+
+}
+
+.mycontainer .email {
+	 /* padding: 0 50px; */
+	font-family: Calibri;
+  font-size:  18px; 
+	font-weight: 400;  
+
+	/*padding: 10px 20px 10px 30px; */
+	margin-left: -10px;
+	background-color: #f9c5bc  ;   
+	color:#654321;
+} 
+
+.mycontainer .mobile {
+
+	font-family: Calibri;
+  font-size:  18px; 
+	font-weight: 400;  
+
+	margin-left: -10px;
+	background-color: #f9c5bc  ;   
+	color: #654321;
+} 
+
+.mycontainer .thanks {
+
+	font-family: Calibri;
+  font-size:  18px; 
+	font-weight: 400;  
+
+} 
+
+.mycontainer .header h1, h2{
+	text-align: left;
+	font-family: Tahoma, Verdana;
+}
+
+
+.contact-page {
+	background-image: url("../img/little-2.jpg");
+	color: black ; 
+}
+
+/*///////////////////////////////////////////////////
+////  FAQ.html // */
+
+.faq-page { 
+	/*background-color: #eafaf1;   */
+	background-image: url("../img/beach-sand-rock.jpg");
+}
+
+.mycontainer .panel-heading {
+	background-color: #f9c5bc  ;   
+	color: #654321;
+}
+.mycontainer .panel-title {
+	font-family: Calibri;
+  font-size:  18px; 
+	font-weight: 400;  
+}
+
+.mycontainer .panel-body {
+	font-family: Calibri;
+  font-size:  16px; 
+	font-weight: 200;  
+}
+/* Typography */
+h1,h2,h3 {
+	text-align: left;
+	font-family: Futura, Helvetica, Arial,Sans-serif;
+}
+
+
+
